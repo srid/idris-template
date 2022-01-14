@@ -3,7 +3,7 @@
 With VSCode IDE support.
 
 ```sh
-make # Or Ctrl+Shift+B in VSCode
+nix develop -c make # Or Ctrl+Shift+B in VSCode
 ```
 
 - [x] Very simple template
