@@ -1,5 +1,11 @@
 
-all:	build/exec/idris2-template
+all:	idrisid 
+
+idrisid:
+	@echo "Launching idrisid"
+	echo src/*.idr | entr sh -c 'make run'
+
+run:	build/exec/idris2-template
 	build/exec/idris2-template
 
 build/exec/idris2-template:	src/Main.idr
