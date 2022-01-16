@@ -1,0 +1,10 @@
+package idris2-template
+
+modules = Main
+main = Main
+
+depends = contrib 
+
+executable = idris2-template
+
+sourcedir = "src"
