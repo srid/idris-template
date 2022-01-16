@@ -3,7 +3,7 @@ all:	idrisid
 
 idrisid:
 	@echo "Launching idrisid"
-	echo src/*.idr | entr sh -c 'make run'
+	echo src/*.idr | entr -d sh -c 'make run'
 
 run:	build/exec/idris2-template
 	build/exec/idris2-template
