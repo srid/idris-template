@@ -1,6 +1,6 @@
 
-all:	build/exec/hello_app/hello.so
-	build/exec/hello_app/hello.so
+all:	build/exec/idris2-template
+	build/exec/idris2-template
 
-build/exec/hello_app/hello.so:	hello.idr 
-	idris2 hello.idr -o hello 
+build/exec/idris2-template:	src/Main.idr
+	idris2 --build --find-ipkg

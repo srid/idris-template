@@ -4,7 +4,6 @@
   "recommendations": [
     "arrterian.nix-env-selector",
     "bbenoist.nix",
-    "jnoortheen.nix-ide",
-    "meraymond.idris-vscode"
+    "jnoortheen.nix-ide"
   ]
 }
